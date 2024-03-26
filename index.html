@@ -71,11 +71,13 @@
         #h21 {
             clear: both;
         }
+
         h3 {
             text-align: center;
             font-size: 50px;
             color: rgba(71, 89, 168, 0.925);
         }
+
         p {
             clear: both;
         }
@@ -85,22 +87,39 @@
         }
 
         p {
-            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-family: "Dancing Script", cursive;
+            font-optical-sizing: auto; 
         }
 
-        footer{
+        footer {
             width: 100%;
             background-color: rgba(151, 155, 177, 0.925);
             clear: both;
             height: 70px;
             padding-top: 45px;
         }
-        #pfooter{
+
+        #pfooter {
             margin-left: 50px;
             color: rgba(71, 89, 168, 0.925);
         }
-        #span{
+
+        #span {
             color: rgba(71, 89, 168, 0.925);
+        }
+
+        #titulo {
+            text-align: center;
+        }
+
+        #galeria {
+            display: flex;
+        }
+
+        #imageness {
+            margin-left: 25px;
+            width: 380px;
+            height: 200px;
         }
     </style>
 </head>
@@ -126,7 +145,8 @@
             culpa odio, corporis unde quas cupiditate repellendus in voluptatum distinctio. Magni necessitatibus ipsam
             officiis ipsa veniam. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eaque sapiente, molestias
             recusandae, ipsam ducimus <br><br>
-            <span id="span">La sociedad de la nieve: un equipo, formado por un meta comun, la de sobrevivir</span> <br> <br>
+            <span id="span">La sociedad de la nieve: un equipo, formado por un meta comun, la de sobrevivir</span> <br>
+            <br>
             culpa odio, corporis unde quas cupiditate repellendus in voluptatum distinctio. Magni necessitatibus ipsam
             officiis ipsa veniam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam est vitae enim libero
             aut quod nam sunt quaerat ducimus rerum. Iusto aspernatur fuga nam consectetur nulla natus quidem rem illum!
@@ -157,11 +177,11 @@
         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Neque deleniti, repellendus distinctio est
             recusandae minus placeat molestiae optio eum harum cum sed, doloribus, consequuntur voluptatum iure fuga
             nisi quo hic.</p>
-            <br>
-            <br>
-            <h3>Equipo</h3>
-            <br>
-            <br>
+        <br>
+        <br>
+        <h3>Equipo</h3>
+        <br>
+        <br>
         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eaque sapiente, molestias recusandae, ipsam ducimus
             culpa odio, corporis unde quas cupiditate repellendus in voluptatum distinctio. Magni necessitatibus ipsam
             officiis ipsa veniam.</p>
@@ -178,8 +198,17 @@
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             allowfullscreen></iframe>
     </section>
+    <section>
+        <h2 id="titulo">Galeria de imagenes</h2>
+    </section>
+    <section id="galeria">
+        <img src="c1.jpeg" alt="" id="imageness">
+        <img src="c2.jpeg" alt="" id="imageness">
+        <img src="c3.jpeg" alt="" id="imageness">
+    </section>
     <footer>
         <p id="pfooter">Derechos Resevados</p>
     </footer>
-</body>  
+</body>
+
 </html>
